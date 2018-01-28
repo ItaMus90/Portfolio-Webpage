@@ -32,8 +32,7 @@ p{
 .pageOne{
 	background: url("https://wallpapercave.com/wp/kSQdCxM.jpg");
 	background-size: cover;
-	height: 800px;
-	width: 100%;
+	padding-bottom: 10%;
 }
 
 .block{
@@ -47,10 +46,34 @@ p{
 	font-size: 2em;
 }
 
+/**
+icons into page one 
+*/
+
+#twittericon{
+	color: #1dcaff;
+}
+
+#linkdinicon{
+	color:#007bb6;
+}
+
+#githubicon{
+	color: #24292e;
+}
+
+#youtubeicon{
+	color: #cc181e;
+}
+
+#facebookicon{
+	color: #3b5998;	
+}
+
 .pageTwo{
 	background: url("https://wallpapercave.com/wp/VuOPaps.jpg");
 	background-size: cover;
-    height: 800px;
+    padding-bottom: 10%;
     padding-top: 5%;
 }
 
@@ -61,4 +84,20 @@ p{
 
 .img-pageTwo{
 	width:50%;
+	margin-left: 51px;
+	border-radius: 50%;
+}
+
+.pageThree{
+	background:url("https://wallpapercave.com/wp/MwWqtVu.jpg");
+	background-size: cover;
+    height: 800px;
+    padding-top: 5%;
+}
+
+.pageFour{
+	background:url("https://wallpapercave.com/wp/KZrp8yI.jpg");
+	background-size: cover;
+    height: 800px;
+    padding-top: 5%;
 }
