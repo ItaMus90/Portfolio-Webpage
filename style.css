@@ -1,8 +1,64 @@
+
 body{
 	background-color: #fff;
-}
-.nav-pills{
 	font-family: 'Lobster', cursive;
+	color: #fff;
+}
+
+h1{
+	/**
+		bootstarp add padding and margin so i don went them 
+		this why i put them 0;
+	 */
+	padding: 0;
+	margin-top: 0;
+	font-size: 5em;
+}
+
+p{
+	font-size: 2em;
+}
+
+.container-fluid{
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.nav-pills{
 	font-size: 2em;
 	background-color: #000;
+}
+
+.pageOne{
+	background: url("https://wallpapercave.com/wp/kSQdCxM.jpg");
+	background-size: cover;
+	height: 800px;
+	width: 100%;
+}
+
+.block{
+	padding: 114px;
+}
+
+.btn-default{
+	background-color: #000;
+	border: #000;
+	color: #337ba7;
+	font-size: 2em;
+}
+
+.pageTwo{
+	background: url("https://wallpapercave.com/wp/VuOPaps.jpg");
+	background-size: cover;
+    height: 800px;
+    padding-top: 5%;
+}
+
+.star-bright{
+	border-color: #fff;
+	border-width: 5px;
+}
+
+.img-pageTwo{
+	width:50%;
 }
